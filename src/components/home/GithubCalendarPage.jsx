@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from "react";
 import axios from "axios";
-// import GitHubCalendar from 'react-github-calendar';
+import GitHubCalendar from 'react-github-calendar';
 import { githubHeading, gitHubLink, gitHubQuerry, gitHubUsername, projectsLength } from "../../editable-stuff/configurations.json";
 import ProjectCard from "./ProjectCard";
 
@@ -32,7 +32,7 @@ const GithubCalendarPage = () => {
                         <ProjectCard key={project.id} id={project.id} value={project} />
                     ))}
                 </div>
-                {/* <GitHubCalendar blockSize={10} fontSize={16} blockMargin={4} username={gitHubUsername} /> */}
+                <GitHubCalendar blockSize={10} fontSize={16} blockMargin={4} username={gitHubUsername} />
             </div>
         </div>
     );
