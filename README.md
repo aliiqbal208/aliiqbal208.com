@@ -4,8 +4,8 @@
   <h1 align="center">Developer's Portfolio ✨</h1>
 
   <p align="center">
-    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://aliiqbal208.github.io">aliiqbal208.github.io</a>
+    It is a personal portfolio template hosted with Netlify, built to showcase my recent projects. Site URL / Demo: 
+    <a href="https://www.aliiqbal208.com">www.aliiqbal208.com</a>
     <br />
     <br />
     <a href="https://aliiqbal208.com">About Me</a>
@@ -34,11 +34,6 @@
 - [Sharing 💗](#sharing-)
 - [Prerequisites 🍪](#prerequisites-)
 - [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Contributing 🙌](#contributing-)
-- [Issues](#issues)
-- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
-- [Showcase 🚀](#showcase-)
-- [Versão em Português :brazil:](#versao-em-portugues-)
 
 ## Technology Stack 🛠️
 
