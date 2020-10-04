@@ -1,68 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h1 align="center">Developer's Portfolio ✨</h1>
 
-## Available Scripts
+  <p align="center">
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
+    <a href="https://aliiqbal208.github.io">aliiqbal208.github.io</a>
+    <br />
+    <br />
+    <a href="https://aliiqbal208.com">About Me</a>
+    ·
+    <a href="https://github.com/aliiqbal208/home/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/aliiqbal208/home/issues">Request Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+![GitHub contributors](https://img.shields.io/github/contributors/aliiqbal208/home?color=ffcc66&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/aliiqbal208/home?color=ffcc66&style=for-the-badge)
+[![GitHub forks](https://img.shields.io/github/forks/aliiqbal208/home?style=for-the-badge)](https://github.com/aliiqbal208/star_book/network)
+[![GitHub issues](https://img.shields.io/github/issues/aliiqbal208/home?color=ffcc66&style=for-the-badge)](https://github.com/aliiqbal208/star_book/issues)
+[![GitHub license](https://img.shields.io/github/license/aliiqbal208/home?style=for-the-badge)](https://github.com/aliiqbal208/home/blob/master/LICENSE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/aliiqbal208?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/aliiqbal208)
 
-### `npm start`
+[![Site preview](/public/social-image.png)](https://aliiqbal208.github.io/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Technology Stack 🛠️](#technology-stack-)
+- [Structure ⚓](#structure-)
+- [Sharing 💗](#sharing-)
+- [Prerequisites 🍪](#prerequisites-)
+- [Setup And Deployment 🔧](#setup-and-deployment-)
+- [Contributing 🙌](#contributing-)
+- [Issues](#issues)
+- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
+- [Showcase 🚀](#showcase-)
+- [Versão em Português :brazil:](#versao-em-portugues-)
 
-### `npm run build`
+## Technology Stack 🛠️
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Dependencies defined in package.json:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[Reactjs](https://reactjs.org/)
+| [Bootstrap](https://getbootstrap.com/)
+| [Material-UI](https://github.com/mui-org/material-ui)
+| [Typist](https://github.com/jstejada/react-typist)
+| [GithubCalendar](https://github.com/grubersjoe/react-github-calendar)
+| [GitHub API](https://developer.github.com/v3/repos/)
+| [Instagram API](https://www.instagram.com/developer/embedding/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Structure ⚓
 
-### `npm run eject`
+- Navigation bar (optional)
+- Blog (optional)
+- Body
+  - Name | Profession
+  - Contact / Follow / Find me / Facebook / LinkedIn / GitHub / Instagram / Email / CodePen
+  - Resume | About me
+- About Me
+  - Display picture (using Instagram API) (optional)
+  - About myself, my Interests, Goals and Hobbies
+  - Things I'm good at (Skills)
+  - Resume button
+- Recent Projects (using GitHub API) (optional)
+- Footer
+  - Acknowledgements (contributors)
+  - Copyrights - open source
+  - (quote: Dream big, Think big)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Sharing 💗
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/configurations.json](./src/editable-stuff/configurations.json) and add resume. Mark star ⭐ if you like this project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Prerequisites 🍪
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
 
-## Learn More
+## Setup And Deployment 🔧
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. To Get Started, Fork this repository to your GitHub account:
+2. Clone the forked repo from your account using:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+     git clone https://github.com/<your-username>/home.git
+   ```
 
-### Code Splitting
+3. Open in editor and edit [src/editable-stuff/configurations.json](./src/editable-stuff/configurations.json) file.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+4. Add your resume as <resume.pdf> in place of [src/editable-stuff/resume.pdf](./src/editable-stuff/)
 
-### Analyzing the Bundle Size
+5. Edit [title](./public/index.html#L34) and meta [description](./public/index.html#L13) in [public/index.html](./public/index.html).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+6. After editing run the following bash commands:
 
-### Making a Progressive Web App
+   ```bash
+   npm install
+   npm start
+   ```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+7. To deploy website, I am using [Netlify](https://www.netlify.com/).
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Facing issues? Feel free to contact at aliiqbal208@gmail.com.

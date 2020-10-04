@@ -1,7 +1,13 @@
 {
-  "name": "my-app",
+  "name": "Muhammad-ali-portfolio",
+  "description": "A personal portfolio hosted with Netlify, built to showcase my recent projects.",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "MuHaMMaD Ali",
+    "email": "aliiqbal208@gmail.com",
+    "url": "https://github.com/aliiqbal208"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
