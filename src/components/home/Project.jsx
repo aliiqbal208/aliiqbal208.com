@@ -9,7 +9,7 @@ const Project = () => {
         <h1 className="display-4 pt-3 pb-3">{projectHeading}</h1>
         <div className="row">
           {projects.map((project, i) => (
-            <div className="col-12 col-md-6 col-lg-4 mb-4">
+            <div key={i} className="col-12 col-md-6 col-lg-4 mb-4">
               <div key={i} className="card shadow-lg rounded">
                 <img className="card-img-top" style={{ height: '155px' }} src={process.env.PUBLIC_URL + '/projects/' + project.url} alt={project.name} />
                 <div className="card-body">

@@ -28,8 +28,8 @@ const GithubCalendarPage = () => {
             <div className="container container-fluid ">
                 <h1 className="display-4 pt-3 pb-3">{githubHeading}</h1>
                 <div className="row">
-                    {projectsArray.map((project) => (
-                        <ProjectCard key={project.id} id={project.id} value={project} />
+                    {projectsArray.map((project, i) => (
+                        <ProjectCard key={i} id={project.id} value={project} />
                     ))}
                 </div>
                 <GitHubCalendar blockSize={10} fontSize={16} blockMargin={4} username={gitHubUsername} />

@@ -60,7 +60,7 @@ const AboutMe = () => {
             {resumeURL && (
               <p className="lead text-center">
                 <a
-                  className="btn btn-outline-dark btn-lg"
+                  className="btn btn-outline-dark btn-lg mr-1"
                   href={Pdf}
                   target="_blank"
                   rel="noreferrer noopener"
@@ -68,6 +68,14 @@ const AboutMe = () => {
                   aria-label="Resume/CV"
                 >
                   Resume
+                </a>
+                <a
+                  className="btn btn-outline-success btn-lg ml-1"
+                  href="mailto:aliiqbal208@gmail.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Contact Me
                 </a>
               </p>
             )}
