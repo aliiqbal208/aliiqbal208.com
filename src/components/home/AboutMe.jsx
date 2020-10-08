@@ -46,7 +46,7 @@ const AboutMe = () => {
       <div className="container container-fluid">
         <div className="row">
           {showInsta && (
-            <div className="col-5 d-none d-lg-block align-self-center">
+            <div className="col-md-12 col-lg-5 d-lg-block align-self-center text-center">
               <img
                 className="border border-secondary rounded-circle"
                 src={instaProfilePic}
